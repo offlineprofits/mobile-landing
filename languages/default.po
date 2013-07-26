@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Mobile Splash Page Editor\n"
+"POT-Creation-Date: 2013-04-22 18:12+0700\n"
+"PO-Revision-Date: 2013-04-22 18:12+0700\n"
+"Last-Translator: \n"
+"Language-Team: ThemeAvenue <support@themeavenue.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\plugins-dev\\wp-content\\plugins\\wp-"
+"splash-page\n"
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/functions.php:73
+#, php-format
+msgid ""
+"Dear WordPress user! Once again we're proud that you chose <strong>%s</"
+"strong> as your support plugin! You've now been using it for a few days and "
+"we would love you to rate it on Codecanyon! If you feel like doing it now, "
+"<a href=\"%s\" target=\"_blank\">sign in your Codecanyon account</a> ;) "
+"&mdash; <em><a href=\"%s/wp-admin/admin.php?page=wpms-dashboard&amp;rate=yes"
+"\">I did it already, don't bug me</a></em>"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/functions.php:100
+msgid "Please wait while we finish updating the plugin."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/wp-splash-page.php:34
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:11
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:17
+msgid "WP Mobile Splash Page Editor"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/wp-splash-page.php:34
+msgid "Splash Page"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:7
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:8
+msgid "Preview Splash Page"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:15
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:21
+msgid "Settings updated."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:20
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:26
+msgid "Show Advanced Options"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:34
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:40
+msgid "Style Options"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:37
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:43
+msgid "Loading"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:44
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:50
+msgid "Link Anchor"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:48 Copy.php:99
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:54
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:108
+msgid "URL"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:52
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:58
+msgid "Button Type"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:61
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:67
+msgid "Button Icon"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:85
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:91
+msgid "Button Background Color"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:92 Copy.php:101
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:100
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:110
+msgid "Save"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:93 Copy.php:102
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:101
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:111
+msgid "Delete"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:110
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:119
+msgid "Enable Splash Screen For"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:113
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:122
+msgid "Mobiles"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:114
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:123
+msgid "Tablets"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:119 Copy.php:130 Copy.php:294 Copy.php:339
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:133
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:298
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:343
+msgid "Enable"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:120 Copy.php:131 Copy.php:295 Copy.php:340
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:134
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:299
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:344
+msgid "Disable"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:125
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:128
+msgid "Enable Link to Full Site"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:137
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:140
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:24
+msgid "Logo or Featured Image"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:143
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:146
+#, php-format
+msgid ""
+"Type-in image URL or upload a now one. You can use Data URI <a href=\"%s\" "
+"target=\"_blank\">duri.me</a> to improve PageSpeed."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:149
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:152
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:30
+msgid "Font"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:152
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:155
+msgid "Here is a list of mobile compliant fonts:"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:167
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:170
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:35
+msgid "Content Alignment"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:181
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:184
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:40
+msgid "Catchphrase Color"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:189
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:192
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:45
+msgid "Catchphrase Size"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:198
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:201
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:52
+msgid "Background Color"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:206
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:209
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:57
+msgid "Background Image"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:212
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:215
+#, php-format
+msgid ""
+"Type-in image URL or upload a now one. We recommend <a href=\"%s\" target="
+"\"_blank\">subtlepatterns.com</a>."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:222
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:225
+msgid "Background Image Repetition"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:226
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:229
+msgid "Repeat"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:227
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:230
+msgid "No-Repeat"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:228
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:231
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:229
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:232
+msgid "Repeat Vertically"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:235
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:238
+msgid "Background Image Position"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:260
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:263
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:65
+msgid "Buttons Background Color"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:268
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:271
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:70
+msgid "Buttons Font Color"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:276
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:279
+msgid "Buttons Style"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:280
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:283
+msgid "Select Button Style"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:281
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:284
+msgid "Block"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:282
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:286
+msgid "Text"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:283
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:287
+msgid "Squared (Metro Style)"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:289
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:293
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:75
+msgid "Display Icons"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:296
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:300
+msgid "Do you want to display icons on the buttons?"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:301
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:305
+msgid "Social Networks Style"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:306
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:310
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:84
+msgid "Squared"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:307
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:311
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:84
+msgid "Normal"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:308
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:312
+msgid "Do you want to use plain icons for social networks links?"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:313
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:317
+msgid "Social Networks Background Color"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:321
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:325
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:94
+msgid "Extra CSS"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:324
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:328
+msgid "Add CSS"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:324
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:328
+msgid "Show additional CSS"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:328
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:332
+msgid ""
+"The Splash Page's &lt;body&gt; tag uses the following class: <code>.mobile</"
+"code>.<br/>You can easily style the page with custom CSS."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:334
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:338
+msgid "Enable Google Analytics"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:345
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:349
+msgid "Google Analytics"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:350
+msgid ""
+"You are using Google Analytics for WordPress plugin. No need to re-enter "
+"your Analytics tracking code, we will use the Analytics plugin settings :)"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:354
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:358
+msgid "Please paste your Google Analytics tracking code."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:363
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:381
+msgid "Save changes"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:384
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:402
+msgid "Add Buttons"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:388 Copy.php:419
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:406
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:437
+msgid "Add a Button"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:424
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:442
+msgid "Add a Social Network"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:433
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:451
+msgid "Add a Network"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:442
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:471
+msgid "View On Your Mobile"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard
+#: - Copy.php:444
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:473
+msgid "Flash this QR Code to see the result on your mobile."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:95
+msgid "Button Position"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:285
+msgid "Block Rounded"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:354
+msgid ""
+"You are using <strong>Google Analytics for WordPress</strong> plugin. No "
+"need to re-enter your Analytics tracking code, we will use the Analytics "
+"plugin settings :)"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:364
+msgid "Cookie Lifetime"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:368
+msgid "1 Day"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:369
+msgid "1 Week"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:370
+msgid "1 Month"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:371
+msgid "1 Year"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:456
+msgid "Add a Textarea"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/dashboard.php:462
+msgid "Add textarea"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/debug.php:29
+msgid "Debug Information"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:7
+msgid "Enable Splash Screen"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:12
+msgid "Enable Performances"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:17
+msgid "Add Link to Full Site"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:26
+msgid "Type-in the URL or upload a new image."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:59
+msgid ""
+"Type-in the URL or upload a new image. We recommend <a href=\"http://"
+"subtlepatterns.com\" target=\"_blank\">subtlepatterns.com</a>."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:82
+msgid "Social Networks Links Style"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:85
+msgid "Do you want to use plain icons?"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/options.php:89
+msgid "Social Networks Links Color"
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/resources.php:4
+msgid ""
+"This plugin requires functions available in WordPress 3.5+. Please update "
+"your site before using this plugin."
+msgstr ""
+
+#: C:\wamp\www\plugins-dev\wp-content\plugins\wp-splash-page/includes/resources.php:4
+msgid "WordPress Version Outdated"
+msgstr ""

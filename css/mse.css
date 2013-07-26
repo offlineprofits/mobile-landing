@@ -1,0 +1,272 @@
+/* Switch inputs = mse_switch */
+/* http://devgrow.com/iphone-style-switches/ */
+.cb-enable, .cb-disable, .cb-enable span, .cb-disable span { background: url(../images/input.switch.gif) repeat-x; display: block; float: left; }
+.cb-enable span, .cb-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+.cb-enable span { background-position: left -90px; padding: 0 10px; }
+.cb-disable span { background-position: right -180px;padding: 0 10px; }
+.cb-disable.selected { background-position: 0 -30px; }
+.cb-disable.selected span { background-position: right -210px; color: #fff; }
+.cb-enable.selected { background-position: 0 -60px; }
+.cb-enable.selected span { background-position: left -150px; color: #fff; }
+.mse_switch label { cursor: pointer; }
+.mse_switch input { display: none; }
+
+/* Update */
+#mse_update{
+	display: none;
+	padding: 5em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Select same look as Select2 */
+/*
+select{
+	-webkit-appearance: none;
+	display: block;
+	height: 24px;
+	padding: 0 0 0 8px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #aaa;
+	line-height: 26px;
+	background: #fff url(../images/select2.png) no-repeat 100% 50%;
+}
+*/
+
+/* Dashboard */
+h2 span{
+	font-size: 12px;
+}
+#top_buttons{
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+.mse_advanced{
+	display: none;
+}
+.mse_section{
+	border-top: 1px solid #ddd;
+}
+.mse_row{
+	padding: 1.5em 0;
+}
+.mse_row label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+.mse_row input,
+.mse_row select{
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+.input-block-level{
+	display: block;
+}
+
+/* Preview */
+.mse_loading{
+	background: #000 url(../images/loading.gif) no-repeat center bottom;
+	width: 16px;
+	height: 11px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -5px;
+	text-indent: -9999em;
+}
+#mse_preview{
+	background: url(../images/placeholder.jpg) no-repeat;
+	width: 380px;
+	height: 740px;
+	position: absolute;
+	top: 50%;
+	margin-top: -370px;
+	right: 2em;
+}
+#mse_preview .mse_viewport{
+	display: none;
+	margin-left: 29px;
+	margin-top: 111px;
+	width: 300px;
+	height: 508px;
+	padding: 0 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#mse_preview .btn{
+	position: relative;
+}
+#popover_content_wrapper{
+	display: none;
+}
+#popover_content{
+	width: 248px;
+}
+#popover_content .input_row{
+	display: block;
+	margin-bottom: 1em;
+}
+#popover_content .submit_row{
+	display: block;
+	clear: both;
+	border-top: 1px solid #ddd;
+	padding: 1em 0;
+	text-align: center;
+	background-color: #efefef;
+}
+#popover_content label{
+	display: block;
+	font-weight: bold;
+}
+#popover_content #btn-squared-on{
+	display: none;
+}
+#mse_close{
+	text-decoration: none;
+	float: right;
+	font-size: 15px;
+	color: #21759b;
+}
+#mse_close:hover{
+	color: orange;
+}
+
+#mse_btn_icon_list li,
+#mse_align_list li{
+	float: left;
+	margin-right: 5px;
+}
+#mse_align_list li span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url(../../../../wp-includes/images/wpicons.png?ver=20120720) no-repeat;
+}
+#mse_align_list li span.mce_justifyleft{background-position: -100px -20px;}
+#mse_align_list li span.mce_justifycenter{background-position: -120px -20px;}
+#mse_align_list li span.mce_justifyright{background-position: -140px -20px;}
+#mse_align_list li span.mce_justifyfull{background-position: -300px -20px;}
+#mse_background_position_select li{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+#mse_background_position_select a{
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding: 0;
+	width: 48px;
+	height: 48px;
+	border: 1px solid #bbb;
+	background: #f3f3f3 url(../images/marker.png) no-repeat;
+	border-radius: 2px;
+}
+#mse_background_position_select a.selected{
+	background-color: #ddd;
+}
+
+#custom_css{
+	display: none;
+	margin-top: 2em;
+}
+#poststuff #first .inside{
+	min-height: 784px;
+}
+
+/* Edit in place */
+#mse_preview .tagline:hover{
+	background-color: #F5F5DC;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;	
+}
+.editBox{  
+	width: 95%;
+	padding: 2.5%;
+	min-height: 60px;
+	background-color: #fff;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+/* Sortable */
+.button-placeholder{
+	height: 40px;
+	line-height: 40px;
+	background-color: #FFFFE0;
+	border: 1px dashed #111;
+}
+.social-placeholder{
+	height: 45px;
+	width: 37px;
+	background-color: #FFFFE0;
+	border: 1px dashed #111;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {}
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {}
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+	#postbox-container-1{
+		display: none;
+	}
+}
+
+/* To add to dynamic CSS */
+.clearfix{*zoom:1}
+.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+#btn-squared > li > a{
+	float: left;
+	width: 50%;
+	height: 0;
+	margin: 0;
+	padding: 50% 0 0 0;
+	border: none;
+	position: relative;
+}
+#btn-squared > li > a > span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 12px;
+	left: 0;
+}
+#btn-squared > li > a > span > i{
+	display: block;
+	width: 100%;
+	position: absolute;
+	/*top: -100px;*/
+	top: -80px;
+	left: 0;
+	font-size: 460%;
+}
+#btn-text > li > a{
+	background: none !important;
+	border: none;
+	text-decoration: underline;
+	-moz-text-decoration-line: underline;
+	-moz-text-decoration-style: dashed;
+	-moz-text-decoration-color: green;
+	-webkit-text-decoration-line: underline;
+	-webkit-text-decoration-style: dashed;
+	-webkit-text-decoration-color: green;
+	font-size: 18px;
+	padding: 0.5em 1em;
+}
+#btn-text > li > a i{
+	display: none;
+}
+#btn-block-rounded > li > a{
+	border-radius: 30px;
+}
