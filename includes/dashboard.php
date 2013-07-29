@@ -507,7 +507,7 @@ function wpmse_dashboard_content() {
 
 						<h3><span><?php _e('About The Plugin', 'wpmse'); ?></span></h3>
 						<div class="inside">
-							<p><?php printf(__('If you encounter any problems using our plugin, please visit our <a href="%s" target="_blank">support site</a>', 'wpmse'), 'http://wpfrogs.com/plugins/'); ?>.</p>
+							<p><?php printf(__('If you encounter any problems using our plugin, please visit our <a href="%s" target="_blank">support site</a>', 'wpmse'), 'http://wpfrogs.freshdesk.com/support/home'); ?>.</p>
 							<p><?php printf(__('You can also suggest ideas <a href="%s" target="_blank">here</a>', 'wpmse'), 'http://wpfrogs.com/blogs/'); ?>.</p>
 							<hr>
 							<p><em>© Copyright 2013 <a href="http://wpfrogs.com" target="_blank" style="color:#333">wpfrogs.com</a></em></p>
