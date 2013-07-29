@@ -70,7 +70,7 @@ function wpmse_ask_to_rate_plugin() {
 	$limit 		= strtotime('+10 days', $setup_date);
 	if( strtotime('now') > $limit && isset($_GET['page']) && $_GET['page'] == 'wpms-dashboard' ) {
 		if( $rated == 'pending' ) {
-			?><div id="wpas_rated" class="updated fade"><p><?php printf(__('Dear WordPress user! Once again we\'re proud that you chose <strong>%s</strong> as your support plugin! You\'ve now been using it for a few days and we would love you to rate it on Codecanyon! If you feel like doing it now, <a href="%s" target="_blank">sign in your Codecanyon account</a> ;) &mdash; <em><a href="%s/wp-admin/admin.php?page=wpms-dashboard&amp;rate=yes">I did it already, don\'t bug me</a></em>', 'n2cpanel'), WPMSE_NAME, 'https://account.envato.com/sign_in?to=codecanyon', home_url()); ?></p></div><?php
+			?><div id="wpas_rated" class="updated fade"><p><?php printf(__('Dear WordPress user! Once again we\'re proud that you chose <strong>%s</strong> as your support plugin! You\'ve now been using it for a few days and we would love you to rate it on wpfrogs! If you feel like doing it now, <a href="%s" target="_blank">sign in your wpfrogs account</a> ;) &mdash; <em><a href="%s/wp-admin/admin.php?page=wpms-dashboard&amp;rate=yes">I did it already, don\'t bug me</a></em>', 'n2cpanel'), WPMSE_NAME, 'http://wpfrogs.com', home_url()); ?></p></div><?php
 		}
 	}
 }
