@@ -103,7 +103,7 @@
 			
 			public function preCheckLicense(){
 //exit("Hello");
-				if(isset($_POST[PLE_Client_Util::WP_OPTION_RESET_FIELD_NAME])){
+				if(isset($_POST[MSE_PLE_Client_Util::WP_OPTION_RESET_FIELD_NAME])){
 					$this->reset($this->getActivationKey(), $this->PLUGIN_SOFTWARE_NAME);
 					$this->removeActiovationDetails();
 			
@@ -154,7 +154,7 @@
 			
 			private function getActivationKey() {
 				$PREFIX = $this->WP_OPTION_PREFIX;
-				return get_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY);
+				return get_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY);
 			}
 			
 			public function hasLicense(){
@@ -163,7 +163,7 @@
 			
 			private function isCheckedToday() {
 				$PREFIX = $this->WP_OPTION_PREFIX;
-				$validate_date = date(get_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY)); 
+				$validate_date = date(get_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY)); 
 				$todays_date = date("Y-m-d"); 
 				$todays_time = strtotime($todays_date); 
 				$validate_time = strtotime($validate_date);
@@ -175,7 +175,7 @@
 			
 			private function setValidateDate() {
 				$PREFIX = $this->WP_OPTION_PREFIX;
-				update_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY, date("Y-m-d"));
+				update_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY, date("Y-m-d"));
 			}
 			private function showActivationPage(){
 				$form = <<<ACTFORM
@@ -232,12 +232,12 @@ JS;
 			
 			private function setResetLink() {
 //exit("Hi");
-			$reset_input_name = PLE_Client_Util::WP_OPTION_RESET_FIELD_NAME;
+			$reset_input_name = MSE_PLE_Client_Util::WP_OPTION_RESET_FIELD_NAME;
 			$PREFIX = $this->WP_OPTION_PREFIX;
-			$name = get_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_NAME);
-			$email = get_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_EMAIL);
-			$key = get_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY);
-			$expireOn =  get_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_EXPIRETIME);
+			$name = get_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_NAME);
+			$email = get_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_EMAIL);
+			$key = get_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY);
+			$expireOn =  get_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_EXPIRETIME);
 			wp_enqueue_script("myUi","http://code.jquery.com/ui/1.10.3/jquery-ui.js");
 			wp_enqueue_style("myStyle","http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css");
 			$form = <<<ACTFORM
@@ -315,21 +315,21 @@ ACTFORM;
 			private function saveActivationResult($results) {
 				$PREFIX = $this->WP_OPTION_PREFIX;
 				//$this->removeActiovationDetails();
-				add_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_NAME, $results['name']);
-				add_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_EMAIL, $results['email']);
-				add_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_EXPIRETIME, $results['expiretime']);
-				add_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY, $results['key']);
-				add_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY, date("Y-m-d"));
+				add_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_NAME, $results['name']);
+				add_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_EMAIL, $results['email']);
+				add_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_EXPIRETIME, $results['expiretime']);
+				add_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY, $results['key']);
+				add_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY, date("Y-m-d"));
 			}
 			
 			private function removeActiovationDetails() {
 				
 				$PREFIX = $this->WP_OPTION_PREFIX;
-				delete_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_NAME);
-				delete_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_EMAIL);
-				delete_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_EXPIRETIME);
-				delete_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY);
-				delete_option($PREFIX.PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY);
+				delete_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_NAME);
+				delete_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_EMAIL);
+				delete_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_EXPIRETIME);
+				delete_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_ACTIVATION_KEY);
+				delete_option($PREFIX.MSE_PLE_Client_Util::WP_OPTION_PLE_KEY_VALIDATED_TODAY);
 			}
 			
 			public function onPluginDeactivate() {
